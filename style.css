@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #e9eaecc3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  padding: 15px 20px;
+}
+nav a:hover {
+  background-color: #fb7185;
+}
+nav h1 {
+  font-size: 1.5em;
+  color: #fb7185;
+}
+.container {
+  position: relative;
+  left: 5%;
+  top: 200px;
+  width: 550px;
+}
+.container h3 {
+  font-size: 2em;
+}
+.container h2 {
+  font-size: 1.5em;
+  color: #fb7185;
+}
+.hero {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 900px;
+  top: 150px;
+}
+.hero :hover {
+}
+.social-site {
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  top: 150px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: solid 1px #fb7185;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card {
+  height: 150px;
+  width: 250px;
+}
+.headinG {
+  font-size: 3em;
+  padding-top: 50px;
+}
+.card:hover {
+  cursor: pointer;
+  border-radius: 3%;
+  padding: 20px 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards {
+  padding: 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  position: relative;
+  top: 250px;
+}
+.card-logo {
+  height: 25px;
+}
+.card {
+  background-color: #00000;
+}
+/* CSS for download section */
+.download-section {
+  padding: 50px 60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.download-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+h1 > span {
+  font-weight: 100;
+}
+/* .download-email > form {
+  background-color: #e9eaecc3;
+  border-radius: 30px;
+}
+.download-email > form > input {
+  background-color: #e9eaecc3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 160px;
+  border: 2px solid #e9eaecc3;
+  border-radius: 30px;
+}
+.download-email > form > button {
+  color: #fff;
+  background-color: #000000;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 37px;
+  padding-right: 37px;
+  margin-right: 2px;
+  border: 2px solid #e9eaecc3;
+  border-radius: 30px;
+} */
+.faq-section {
+  margin-top: 300px;
+  padding-left: 60px;
+  display: flex;
+  background-color: #cfedf3;
+  height: 250px;
+}
+.faq-image {
+  position: absolute;
+  right: 0px;
+}
+.faq-content > h2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: left;
+}
+.faq-content > h4 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.faq-content > h4:nth-child(3) {
+  font-weight: 600;
+  font-size: 15px;
+}
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CSS for footer section */
+.footer-section {
+  width: 100%;
+  min-width: 1100px;
+  display: flex;
+  background-color: #e9eaecc3;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  color: black;
+}
+.footer-left {
+  flex-wrap: wrap;
+}
+.footer-right {
+  padding-left: 50px;
+}
+.list,
+.logos-list {
+  display: flex;
+}
+.list-items {
+  padding-right: 15px;
+  padding-left: 15px;
+  list-style-type: none;
+  border-right: 1px solid rgb(182, 182, 182);
+}
+.list-items:last-child {
+  border: 0px;
+}
+.footers-right > img {
+  position: relative;
+  right: -100px;
+  margin-left: 10px;
+}
+.list > .list-items {
+  position: relative;
+  left: -55px;
+}
+.list > .list-items:first-child {
+  border: 0px;
+}
